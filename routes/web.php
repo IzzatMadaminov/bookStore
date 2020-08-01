@@ -41,6 +41,15 @@ Route::view('product-details-right-gallery', 'product-details-right-gallery')->n
 Route::view('product-details-left-gallery', 'product-details-left-gallery')->name('product-details-left-gallery');
 Route::view('product-details-left-thumbnail', 'product-details-left-thumbnail')->name('product-details-left-thumbnail');
 Route::view('product-details-right-thumbnail', 'product-details-right-thumbnail')->name('product-details-right-thumbnail');
-Auth::routes();
+
+Route::namespace('Admin')->middleware('auth')->name('admin.')->prefix('admin')->group(function(){
+    Route::get('/', function () {
+        return redirect()->route('layouts.app');
+    });
+});
+
+Auth::routes([
+    'register' => true
+]);
 
 // Route::get('/home', 'HomeController@index')->name('home');

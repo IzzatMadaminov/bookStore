@@ -18,7 +18,7 @@
     <div class="container">
         <div class="blog-post post-details mb--50">
             <div class="blog-image">
-                <img src="image/others/blog-img-big-1.jpg
+                <img src="image/others/home-blog-1.jpg
     
     " alt="">
             </div>

@@ -14,17 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
 
 Route::view('home','index')->name('home');
 Route::view('login-register', 'login-register')->name('login-register');
+Route::view('order-complete', 'order-complete')->name('order-complete');
 Route::view('cart', 'cart')->name('cart');
 Route::view('faq', 'faq')->name('faq');
 Route::view('compare', 'compare')->name('compare');
 Route::view('wishlist', 'wishlist')->name('wishlist');
 Route::view('checkout', 'checkout')->name('checkout');
 Route::view('contact', 'contact')->name('contact');
+Route::view('blog-details', 'blog-details')->name('blog-details');
+Route::view('blog-right-sidebar', 'blog-right-sidebar')->name('blog-right-sidebar');
 Route::view('contact-2', 'contact-2')->name('contact-2');
 Route::view('my-account', 'my-account')->name('my-account');
 Route::view('shop-grid-left-sidebar', 'shop-grid-left-sidebar')->name('shop-grid-left-sidebar');

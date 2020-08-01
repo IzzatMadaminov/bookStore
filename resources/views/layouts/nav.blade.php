@@ -235,12 +235,8 @@
                 <div class="col-lg-6">
                     <div class="main-navigation flex-lg-right">
                         <ul class="main-menu menu-right main-menu--white li-last-0">
-                            <li class="menu-item has-children">
-                                <a href="javascript:void(0)">Home <i
-                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                <ul class="sub-menu">
-                                    <li> <a href="{{ route('home') }}">Home Four</a></li>
-                                </ul>
+                            <li class="menu-item">
+                                <a href="{{ route('home') }}">Home</a>
                             </li>
                             <!-- Shop -->
                             <li class="menu-item has-children mega-menu">
@@ -301,46 +297,16 @@
                                     <li><a href="{{ route('checkout') }}">Checkout</a></li>
                                     <li><a href="{{ route('compare') }}">Compare</a></li>
                                     <li><a href="{{ route('wishlist') }}">Wishlist</a></li>
-                                    <li><a href="login-register.html">Login Register</a></li>
+                                    <li><a href="{{ route('login-register') }}">Login Register</a></li>
                                     <li><a href="{{ route('my-account') }}">My Account</a></li>
-                                    <li><a href="order-complete.html">Order Complete</a></li>
+                                    <li><a href="{{ route('order-complete') }}">Order Complete</a></li>
                                     <li><a href="{{ route('faq') }}">Faq</a></li>
                                     <li><a href="{{ route('contact-2') }}">contact 02</a></li>
                                 </ul>
                             </li>
                             <!-- Blog -->
-                            <li class="menu-item has-children mega-menu">
-                                <a href="javascript:void(0)">Blog <i
-                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                <ul class="sub-menu three-column">
-                                    <li class="cus-col-33">
-                                        <h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-                                        <ul class="mega-single-block">
-                                            <li><a href="blog.html">Full Widh (Default)</a></li>
-                                            <li><a href="blog-left-sidebar.html">left Sidebar</a></li>
-                                            <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="cus-col-33">
-                                        <h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-                                        <ul class="mega-single-block">
-                                            <!-- <li><a href="blog-list.html">Full Widh (Default)</a></li> -->
-                                            <li><a href="blog-list-left-sidebar.html">left Sidebar</a></li>
-                                            <li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="cus-col-33">
-                                        <h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
-                                        </h3>
-                                        <ul class="mega-single-block">
-                                            <li><a href="blog-details.html">Image Format (Default)</a></li>
-                                            <li><a href="blog-details-gallery.html">Gallery Format</a></li>
-                                            <li><a href="blog-details-audio.html">Audio Format</a></li>
-                                            <li><a href="blog-details-video.html">Video Format</a></li>
-                                            <li><a href="blog-details-left-sidebar.html">left Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                            <li class="menu-item">
+                                <a href="{{ route('blog-right-sidebar') }}">Blog</a>
                             </li>
                             <li class="menu-item">
                                 <a href="{{ route('contact') }}">Contact</a>
@@ -542,36 +508,8 @@
                         <li class="menu-item">
                             <a href="{{ route('home') }}">Home</a>
                         </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item-has-children">
-                                    <a href="#">Blog Grid</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Full Widh (Default)</a></li>
-                                        <li><a href="blog-left-sidebar.html">left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Blog List</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-list.html">Full Widh (Default)</a></li>
-                                        <li><a href="blog-list-left-sidebar.html">left Sidebar</a></li>
-                                        <li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Blog Details</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-details.html">Image Format (Default)</a></li>
-                                        <li><a href="blog-details-gallery.html">Gallery Format</a></li>
-                                        <li><a href="blog-details-audio.html">Audio Format</a></li>
-                                        <li><a href="blog-details-video.html">Video Format</a></li>
-                                        <li><a href="blog-details-left-sidebar.html">left Sidebar</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <li class="menu-item">
+                            <a href="{{ route('blog-right-sidebar') }}">Blog</a>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="#">Shop</a>
@@ -623,9 +561,9 @@
                                 <li><a href="{{ route('checkout') }}">Checkout</a></li>
                                 <li><a href="{{ route('compare') }}">Compare</a></li>
                                 <li><a href="{{ route('wishlist') }}">Wishlist</a></li>
-                                <li><a href="login-register.html">Login Register</a></li>
+                                <li><a href="{{ route('login-register') }}">Login Register</a></li>
                                 <li><a href="{{ route('my-account') }}">My Account</a></li>
-                                <li><a href="order-complete.html">Order Complete</a></li>
+                                <li><a href="{{ route('order-complete') }}">Order Complete</a></li>
                                 <li><a href="{{ route('faq') }}">Faq</a></li>
                                 <li><a href="{{ route('contact-2') }}">contact 02</a></li>
                             </ul>
@@ -753,45 +691,16 @@
                                 <li><a href="{{ route('checkout') }}">Checkout</a></li>
                                 <li><a href="{{ route('compare') }}">Compare</a></li>
                                 <li><a href="{{ route('wishlist') }}">Wishlist</a></li>
-                                <li><a href="login-register.html">Login Register</a></li>
+                                <li><a href="{{ route('login-register') }}">Login Register</a></li>
                                 <li><a href="{{ route('my-account') }}">My Account</a></li>
-                                <li><a href="order-complete.html">Order Complete</a></li>
+                                <li><a href="{{ route('order-complete') }}">Order Complete</a></li>
                                 <li><a href="{{ route('faq') }}">Faq</a></li>
                                 <li><a href="{{ route('contact-2') }}">contact 02</a></li>
                             </ul>
                         </li>
                         <!-- Blog -->
-                        <li class="menu-item has-children mega-menu">
-                            <a href="javascript:void(0)">Blog <i
-                                    class="fas fa-chevron-down dropdown-arrow"></i></a>
-                            <ul class="sub-menu three-column">
-                                <li class="cus-col-33">
-                                    <h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-                                    <ul class="mega-single-block">
-                                        <li><a href="blog.html">Full Widh (Default)</a></li>
-                                        <li><a href="blog-left-sidebar.html">left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li class="cus-col-33">
-                                    <h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-                                    <ul class="mega-single-block">
-                                        <!-- <li><a href="blog-list.html">Full Widh (Default)</a></li> -->
-                                        <li><a href="blog-list-left-sidebar.html">left Sidebar</a></li>
-                                        <li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li class="cus-col-33">
-                                    <h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a></h3>
-                                    <ul class="mega-single-block">
-                                        <li><a href="blog-details.html">Image Format (Default)</a></li>
-                                        <li><a href="blog-details-gallery.html">Gallery Format</a></li>
-                                        <li><a href="blog-details-audio.html">Audio Format</a></li>
-                                        <li><a href="blog-details-video.html">Video Format</a></li>
-                                        <li><a href="blog-details-left-sidebar.html">left Sidebar</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <li class="menu-item">
+                            <a href="{{ route('blog-right-sidebar') }}">Blog</a>
                         </li>
                         <li class="menu-item">
                             <a href="{{ route('contact') }}">Contact</a>

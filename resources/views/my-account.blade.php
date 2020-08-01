@@ -35,7 +35,7 @@
 								address</a>
 							<a href="#account-info" data-toggle="tab"><i class="fa fa-user"></i> Account
 								Details</a>
-							<a href="login-register.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+							<a href="{{ route('login-register') }}"><i class="fas fa-sign-out-alt"></i> Logout</a>
 						</div>
 					</div>
 					<!-- My Account Tab Menu End -->
@@ -48,7 +48,7 @@
 									<h3>Dashboard</h3>
 									<div class="welcome mb-20">
 										<p>Hello, <strong>Alex Tuntuni</strong> (If Not <strong>Tuntuni
-												!</strong><a href="login-register.html" class="logout">
+												!</strong><a href="{{ route('login-register') }}" class="logout">
 												Logout</a>)</p>
 									</div>
 									<p class="mb-0">From your account dashboard. you can easily check &amp; view

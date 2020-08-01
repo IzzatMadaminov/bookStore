@@ -3527,7 +3527,7 @@ Home Two Column Section
                                                     OCT
                                                 </span>
                                             </div>
-                                            <h3 class="title"><a href="blog-details.html">How to Water and Care
+                                            <h3 class="title"><a href="{{ route('blog-details') }}">How to Water and Care
                                                     for Mounted</a></h3>
                                         </div>
                                         <p class="meta-para"><i class="fas fa-user-edit"></i>Post by <a
@@ -3537,7 +3537,7 @@ Home Two Column Section
                                             <p>Virtual reality and 3-D technology are already well-established
                                                 in the entertainment...</p>
                                         </article>
-                                        <a href="blog-details.html" class="card-link">Read More <i
+                                        <a href="{{ route('blog-details') }}" class="card-link">Read More <i
                                                 class="fas fa-chevron-circle-right"></i></a>
                                     </div>
                                 </div>
@@ -3557,7 +3557,7 @@ Home Two Column Section
                                                     OCT
                                                 </span>
                                             </div>
-                                            <h3 class="title"><a href="blog-details.html">How to Grow Epiphytic
+                                            <h3 class="title"><a href="{{ route('blog-details') }}">How to Grow Epiphytic
                                                     Tropical Plants</a></h3>
                                         </div>
                                         <p class="meta-para"><i class="fas fa-user-edit"></i>Post by <a
@@ -3567,7 +3567,7 @@ Home Two Column Section
                                             <p>Virtual reality and 3-D technology are already well-established
                                                 in the entertainment...</p>
                                         </article>
-                                        <a href="blog-details.html" class="card-link">Read More <i
+                                        <a href="{{ route('blog-details') }}" class="card-link">Read More <i
                                                 class="fas fa-chevron-circle-right"></i></a>
                                     </div>
                                 </div>
@@ -3587,7 +3587,7 @@ Home Two Column Section
                                                     OCT
                                                 </span>
                                             </div>
-                                            <h3 class="title"><a href="blog-details.html">How To Pot Up and Care
+                                            <h3 class="title"><a href="{{ route('blog-details') }}">How To Pot Up and Care
                                                     For Juvenile</a></h3>
                                         </div>
                                         <p class="meta-para"><i class="fas fa-user-edit"></i>Post by <a
@@ -3597,7 +3597,7 @@ Home Two Column Section
                                             <p>Virtual reality and 3-D technology are already well-established
                                                 in the entertainment...</p>
                                         </article>
-                                        <a href="blog-details.html" class="card-link">Read More <i
+                                        <a href="{{ route('blog-details') }}" class="card-link">Read More <i
                                                 class="fas fa-chevron-circle-right"></i></a>
                                     </div>
                                 </div>

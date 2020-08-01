@@ -43,11 +43,11 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><a href="single-product.html">Vans Off The Wall T-Shirt In</a> <strong>× 1</strong></td>
+								<td><a href="{{ route('single-product') }}">Vans Off The Wall T-Shirt In</a> <strong>× 1</strong></td>
 								<td><span>$59.00</span></td>
 							</tr>
 							<tr>
-								<td><a href="single-product.html">Supreme Being Icon Glitch T-Shirt</a> <strong>× 1</strong></td>
+								<td><a href="{{ route('single-product') }}">Supreme Being Icon Glitch T-Shirt</a> <strong>× 1</strong></td>
 								<td><span>$58.00</span></td>
 							</tr>
 						</tbody>
